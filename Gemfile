@@ -16,6 +16,7 @@ gem 'devise-bootstrap-views'
 gem 'jquery-rails'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'stripe'
+gem 'hirb'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
