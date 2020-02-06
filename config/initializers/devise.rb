@@ -59,7 +59,7 @@ Devise.setup do |config|
   # modifying a user and when used to authenticate or find a user. Default is :email.
   config.strip_whitespace_keys = [:email]
 
-  config.mailer_sender = 'hello@example.com'
+  config.mailer_sender = 'donot-reply@photo-app-gt.herokuapp.com'
 
   # Tell if authentication through request.params is enabled. True by default.
   # It can be set to an array that will enable params authentication only for the
