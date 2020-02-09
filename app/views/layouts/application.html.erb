@@ -27,7 +27,7 @@
         <a class="navbar-brand" href="/">PhotoApp</a>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
-            <li><%= link_to "Link1", "/path1"  %></li>
+            <li><%= link_to "Images", images_path if current_user %></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <% if current_user %>
@@ -58,7 +58,7 @@
           </div><!--/span-->
       </div><!--/row-->
       <footer>
-        <p style="margin-top: 120px;">&copy; Vabaco LLC, Developed by Giorgi Tamarashvili</p>
+        <p style="margin-top: 120px;">&copy; Vabaco JSC, Developed by Giorgi Tamarashvili</p>
       </footer>
     </div> <!-- /container -->
   </body>
